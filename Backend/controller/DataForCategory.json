@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Veg-Foods",
+    "category": "veg-food",
+    "image": "https://th.bing.com/th/id/OIP.Cs_iuBUewDE_Y0_J5bK7WAHaHH?rs=1&pid=ImgDetMain"
+  },
+  {
+    "name": "Non-Veg",
+    "category": "non-veg",
+    "image": "https://tse3.mm.bing.net/th?id=OIG2.5dLbzCWYOmBizL1TXzVE&pid=ImgGn"
+  },
+  {
+    "name": "Sweets-Desert",
+    "category": "desert",
+    "image": "https://tse1.mm.bing.net/th/id/OIG2.9_bkqd7gUwybEduU6.uR?w=1024&h=1024&rs=1&pid=ImgDetMain"
+  },
+  {
+    "name": "Cookies",
+    "category": "cookies",
+    "image": "https://tse3.mm.bing.net/th?id=OIG4.83UWhtx9q66x00lbHzgY&pid=ImgGn"
+  },
+  {
+    "name": "Fast-Food",
+    "category": "fast-food",
+    "image": "https://tse2.mm.bing.net/th?id=OIG2.uPionPE8MwSTwniL6TyF&pid=ImgGn"
+  },
+  {
+    "name": "Drinks",
+    "category": "drinks",
+    "image": "https://tse3.mm.bing.net/th?id=OIG2.i.9EdXeQA8uOGw91p0kp&pid=ImgGn"
+  }
+]

@@ -1,0 +1,72 @@
+const reference = useRef(null);
+  const [scrollpositon, setScrollposition] = useState(0);
+  const leftClick = (dataPassed) => {
+    console.log("reference", reference);
+    console.log("scroll positon now:", scrollpositon);
+    const newScroll = scrollpositon + dataPassed;
+    console.log("newScroll:", newScroll);
+    setScrollposition(newScroll);
+    console.log("scroll positon Then:", scrollpositon);
+    reference.current.scrollLeft = newScroll;
+    console.log("operation:", (reference.current.scrollLeft = newScroll));
+  };
+  // const RightClick = () => {};
+  return (
+    <>
+      <div>
+        <div className="_Father" ref={reference}>
+          <div className="child">Some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+          <div className="child">some content</div>
+        </div>
+      </div>
+      <button className="btn btn-primary abs-l" onClick={() => leftClick(-150)}>
+        Left
+      </button>
+      <button className="btn btn-success abs" onClick={() => leftClick(150)}>
+        Right
+      </button>
+    </>
