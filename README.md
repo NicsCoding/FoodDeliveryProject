@@ -28,10 +28,7 @@ A full-featured **Food Delivery Web Application** built using the **MERN Stack**
 
 ---
 
-## 📸 Screenshots (Optional)
-_Add screenshots here to showcase your UI (Login, Food List, Cart, etc.)_
 
----
 
 ## 🛠️ Installation Steps
 
